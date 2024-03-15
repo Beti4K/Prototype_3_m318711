@@ -406,6 +406,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2db0633b8563304a946a42a45f4bc6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &997169038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 997169039}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &997169039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997169038}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.754865, y: 0.26376083, z: 0.6712272}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1085775613 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3016799518367175024, guid: 74692e77eae690945ba6ff1415dd633d, type: 3}
@@ -732,3 +763,4 @@ SceneRoots:
   - {fileID: 835818921}
   - {fileID: 2056969715}
   - {fileID: 7332065531253911688}
+  - {fileID: 997169039}
